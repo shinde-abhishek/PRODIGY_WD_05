@@ -1,0 +1,118 @@
+/* General styling for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: gilroy;
+}
+
+/* Set background color for the page */
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #7094d6;
+}
+
+/* Styling for the main container */
+.container {
+  margin: 80px 32%;
+  padding: 2vw;
+  width: 35vw;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border-radius: 20px;
+}
+
+/* Styling for the search input and button */
+.input {
+  width: 100%;
+  /* background-color: red; */
+}
+
+.input input {
+  width: 92%;
+  height: 40px;
+  border-radius: 8px;
+  border: 2px solid rgb(56, 149, 255);
+  padding: 10px;
+}
+.input button {
+  width: 7%;
+  height: 40px;
+  border-radius: 8px;
+  background-color: rgb(56, 149, 255);
+  border: none;
+}
+.input button i {
+  color: white;
+}
+
+/* Styling for the city display section */
+.city {
+  /* background-color: aqua; */
+  height: 9vh;
+  width: 100%;
+  text-align: center;
+}
+
+.city h3 {
+  font-size: 40px;
+}
+.city span {
+  font-size: 12px;
+  background-color: rgb(153, 206, 237);
+  font-weight: 600;
+  padding: 2px 5px;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+
+/* Styling for the temperature and weather description */
+.temp {
+  width: 100%;
+  height: 20vh;
+  /* background-color: salmon; */
+  text-align: center;
+}
+.temp h4 {
+  font-size: 18px;
+}
+.temp h1 {
+  font-size: 100px;
+}
+
+/* Styling for additional weather info */
+.bottom-info {
+  width: 100%;
+  height: 22vh;
+  /* background-color: aqua; */
+  display: flex;
+  gap: 10px;
+}
+
+.elem {
+  width: 32%;
+  background-color: rgb(221, 232, 225);
+  border-radius: 15px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.elem i {
+  font-size: 40px;
+}
+.elem h5 {
+  font-size: 16px;
+}
+.elem p {
+  font-size: 13px;
+}

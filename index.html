@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Link to external CSS for styling -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Link to remix icon library for icons -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Search form to enter the city name -->
+      <div class="input">
+        <form class="search-form">
+          <input type="text" class="cityname" placeholder="Enter your city" />
+          <button><i class="ri-search-line"></i></button>
+        </form>
+      </div>
+
+      <!-- Display city name and current date -->
+      <div class="city">
+        <h3 class="search-city">Delhi</h3>
+        <span class="date">7 Jan 2024</span>
+      </div>
+
+      <div class="temp">
+        <h4 class="dec-h4"><i></i> <span class="dec-text">Sunny</span></h4>
+        <h1 class="temperature">20°</h1>
+      </div>
+
+      <!-- Display additional weather details -->
+      <div class="bottom-info">
+        <div class="elem">
+          <i class="ri-windy-line"></i>
+          <h5 class="wind-speed">4 KM/H</h5>
+          <p>Wind</p>
+        </div>
+        <div class="elem">
+          <i class="ri-water-percent-fill"></i>
+          <h5 class="humidity">45%</h5>
+          <p>Humidity</p>
+        </div>
+        <div class="elem">
+          <i class="ri-eye-fill"></i>
+          <h5 class="visibility">4 KM/H</h5>
+          <p>Visibility</p>
+        </div>
+      </div>
+    </div>
+    <!-- Link to external JavaScript for handling weather data -->
+    <script src="script.js"></script>
+  </body>
+</html>
