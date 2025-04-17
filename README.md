@@ -14,9 +14,6 @@ A simple weather application that allows users to check the current weather of a
 - JavaScript
 - OpenWeatherMap API
 
-## 📸 Preview
-![Weather App Screenshot](screenshot.png)
-
 ## 🚀 Getting Started
 1. Clone the repo:
  ```bash
