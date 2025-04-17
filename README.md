@@ -5,7 +5,6 @@ A simple weather application that allows users to check the current weather of a
 ## 🔥 Features
 - Search weather by city name
 - Displays temperature, humidity, wind, and weather description
-- Responsive UI design
 - Real-time API integration
 
 ## 🛠️ Tech Stack
